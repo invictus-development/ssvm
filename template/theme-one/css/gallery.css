@@ -1,0 +1,137 @@
+.list .gallery-thumbnail {
+    
+    padding: 5px;
+    border: 1px solid #ccc;
+
+}
+.text-center {
+    text-align: center;
+}
+.grid .gallery-thumbnail {
+    padding: 5px;
+}
+
+.gallery-tab {
+   
+    width: 100%;
+    
+}
+
+.gallery-section {
+    width:100%;
+    float: left;
+    padding-left:0;
+}
+
+.gallery-section li {   
+    display: inline-flex;
+    margin: 1% 0.5%;
+    vertical-align: bottom;
+}
+
+.gallery-img-title {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#html5-watermark {
+    display:none;
+}
+
+
+.gallery-title
+{
+    font-size: 36px;
+    color: #42B32F;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    text-align: center;
+    color: #000;
+    border-top:1px solid #ccc;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border-radius: 5px;
+    text-align: center;
+    color: #000;
+
+}
+
+.filter-button span {
+    font-size: 13px;
+    line-height: 1;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;    
+}
+
+.grid label {
+    border:1px solid #ccc;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+.pagination {
+    margin-left:50%;
+    margin-top:5%;
+    clear: both;
+}
+.pagination li {
+    margin: 0 5px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 95%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000;
+    margin:0 10px;
+    display:none;
+  }
+  
+.container:hover .overlay {
+opacity: 0.6;
+}
+
+.overlay-text {
+color: white;
+font-size: 20px;
+position: absolute;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+text-align: center;
+}
+
+#grid   {
+    float:left !important;
+}

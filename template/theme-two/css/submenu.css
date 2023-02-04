@@ -1,0 +1,57 @@
+.multileveldropdown {
+    list-style:none inside;
+    margin:0;
+    padding:0;
+    text-align:center;
+    }
+    
+
+.multileveldropdown li {
+    display:block;
+    position:relative;
+    float:left;
+    background: #DA251A; /* menu background color */
+    }
+
+.multileveldropdown li a {
+    display:block;
+    padding:0;
+    text-decoration:none;
+    width:200px; /* this is the width of the menu items */
+    line-height:35px; /* this is the hieght of the menu items */
+    color:#ffffff; /* list item font color */
+    }
+        
+.multileveldropdown li li a {font-size:80%;} /* smaller font size for sub menu items */
+    
+.multileveldropdown li:hover {background:#DA251A;} /* highlights current hovered list item and the parent list items when hovering over sub menues */
+
+
+
+/*--- Sublist Styles ---*/
+.multileveldropdown ul {
+    position:absolute;
+    padding:0;
+    left:211px;
+    display:none; /* hides sublists */
+
+    }
+
+.multileveldropdown li:hover ul ul {display:none;} /* hides sub-sublists */
+
+.multileveldropdown li:hover ul {display:block;} /* shows sublist on hover */
+
+
+
+.submenu-list li.submenu-list:hover ul {display: none};
+.submenu-list li.submenu-list:hover  {display: block};
+
+.multileveldropdown li li:hover ul {
+    display:block; /* shows sub-sublist on hover */
+    margin-left:200px; /* this should be the same width as the parent list item */
+    margin-top:-35px; /* aligns top of sub menu with top of list item */
+    }
+
+.submenuchild {
+    float: right;
+}
